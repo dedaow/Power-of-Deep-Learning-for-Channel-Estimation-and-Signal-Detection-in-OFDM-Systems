@@ -174,9 +174,9 @@ def train_model():
     criterion = nn.MSELoss()  
     optimizer = optim.RMSprop(model.parameters(), lr=0.001)  
     
-    training_epochs = 1000#ACTUALLY 20000 is origin epoch
+    training_epochs = 20000 #takes nearly 50+h for fully train
     display_step = 5
-    test_step = 100
+    test_step = 1000
     total_batch = 50
     
     print("Starting training...")
