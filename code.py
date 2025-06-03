@@ -102,9 +102,9 @@ pilotValue = Modulation(bits)
 
 # channel data
 try:
-    channel_train = np.load('/kaggle/input/power-of-deep-learning-numpy/channel_train.npy')
+    channel_train = np.load('channel_train.npy')
     train_size = channel_train.shape[0]
-    channel_test = np.load('/kaggle/input/power-of-deep-learning-numpy/channel_test.npy')
+    channel_test = np.load('channel_test.npy')
     test_size = channel_test.shape[0]
     print(f"Loaded channel data: train_size={train_size}, test_size={test_size}")
 except FileNotFoundError:
