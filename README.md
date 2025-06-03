@@ -6,11 +6,11 @@ This repository provides a PyTorch version of the code for the paper "Power of D
 Acknowledgements
 I would like to express my sincere gratitude to the authors of the following repositories:
 
-OFDM_DNN by haoyye — original implementation from the paper
+[OFDM_DNN by haoyye — original implementation from the paper](https://github.com/haoyye/OFDM_DNN.git)
 
-BUG423/KAN_OFDM
+[BUG423/KAN_OFDM](https://github.com/BUG423/KAN_OFDM.git)
 
-DNN_detection_via_keras by TianLin0509
+[DNN_detection_via_keras by TianLin0509](https://github.com/TianLin0509/DNN_detection_via_keras)
 
 I learned a lot from the second and third repositories, and based on my understanding, I have written a simplified version using PyTorch. As a beginner, there may be mistakes — feedback and suggestions are very welcome!
 
